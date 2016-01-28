@@ -1,14 +1,12 @@
-<h1 align="center">simple virtual dom</h1>
+<h1 align="center">spa-site-vuejs</h1>
 
 <p align="center">
-  <a href="https://circleci.com/gh/IndexXuan/simple-virtual-dom-es6/tree/master"><img src="https://circleci.com/gh/IndexXuan/simple-virtual-dom-es6/tree/master.svg?style=shield" alt="Build Status"></a>
-  <a href="https://codecov.io/github/IndexXuan/simple-virtual-dom-es6?branch=master"><img src="https://codecov.io/github/IndexXuan/simple-virtual-dom-es6/coverage.svg?branch=dev" alt="Coverage Status"></a>
+  <a href="https://circleci.com/gh/IndexXuan/vue-spa-site/tree/master"><img src="https://circleci.com/gh/IndexXuan/vue-spa-site/tree/master.svg?style=shield" alt="Build Status"></a>
+  <img src="https://img.shields.io/badge/Vim-Best%20Editor-green.svg" alt="Vim, The Best Editor" />
   <br>
   <br>
   <a href="https://github.com/airbnb/javascript"><img src="https://cdn.rawgit.com/feross/standard/master/badge.svg" alt="js-standard-style"></a>
 </p>
-
->also seed project for es6 dev stack (with the help of webpack and babel)
 
 ## Setup
 
@@ -28,16 +26,13 @@ npm test
 
 ##refs:  
 
-[React Reconciliation](http://facebook.github.io/react/docs/reconciliation.html)  
-[本人翻译的中文版](./refs/React-Reconciliation.md)   
+[avalonjs版](https://github.com/IndexXuan/spa-site-avalonjs
 
-thanks [livoras's simple-virtual-dom project](http://github.com/livoras/simple-virtual-dom).
+thanks [evan you's vuejs](https://github.com/vuejs/vue).
 
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 Livoras
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

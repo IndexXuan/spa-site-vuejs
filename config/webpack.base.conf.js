@@ -2,7 +2,7 @@ var path = require('path')
 
 module.exports = {
   entry: {
-    app: './src/index.js'
+    app: './src/main.js'
   },
   output: {
     path: path.resolve(__dirname, '../dist/static'),
@@ -14,6 +14,9 @@ module.exports = {
     alias: {
       'src': path.resolve(__dirname, '../src')
     }
+  },
+  resolveLoader: {
+    root: path.join(__dirname, 'node_modules'),
   },
   module: {
     loaders: [
@@ -35,7 +38,7 @@ module.exports = {
         loader: 'url',
         query: {
           limit: 10000,
-          name: '[name].[ext]?[hash]'
+          name: '[name].[ext]?[hash:7]'
         }
       }
     ]
