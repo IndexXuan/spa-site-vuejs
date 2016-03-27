@@ -8,7 +8,7 @@ export default function routerConfig(router) {
   // normal routes
   router.map({
 
-    '/': {
+    '/index': {
       name: 'index',
       component: require('./views/index.vue')
     },
@@ -40,6 +40,7 @@ export default function routerConfig(router) {
   // redirect 
   router.redirect({
     // not sure the default listId, so failed to use redirect
+    '/': '/index',
     '/list': '/',
     '/detail': '/'
   })

@@ -1,25 +1,45 @@
-<style>
-
-  #list {
-    background-color: #333 
-  }
-
-</style>
-
 <template>
 
-  <div>
-    <list-view></list-view>
+  <div class="list topN">
+    <list-item 
+     v-for="item in lists"
+     :item="item">
+    </list-item>
   </div>
 
 </template>
 
+<style>
+
+</style>
+
 <script>
 
-  import listView from './components/list-view'
+  import listItem from '../components/list-item'
+  import lists from '../stores/getLists'
 
   export default {
-    components: { listView }
+
+    name: "ItemView",
+
+    components: { 
+      listItem
+    },
+
+    data() {
+      return {
+        lists: {}
+      }
+    },
+
+    route: {
+      data({ to }) {
+        return {
+          lists: lists.data
+        }
+      }
+    }
+
   }
 
 </script>

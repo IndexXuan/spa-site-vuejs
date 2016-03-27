@@ -8,35 +8,6 @@
 @import "../base/base";
 @import "../base/_yo-header.scss"; // for webapp
 
-// layout vars start //
-
-// for microsite slider's height
-$slider-height: 1.8rem;
-
-// list page //
-$categories-bgColor: #fff;
-$category-title-color: $dark-grey;
-$item-title-color: $dark-grey;
-
-// microsite item spec size
-$title-line-height: .36rem;
-$ms-topN-img-height: .6rem;
-$ms-img-height: .80rem;
-$item_title_height: .45rem;
-
-// microsite scroller-navigator
-$ms-navigator-height: .40rem;
-$navigator-home-width: .5rem;
-$navigator-color: $wx-bar-bgColor;
-$navigator-current-bgColor: $wx-bar-bgColor;
-$navigator-current-text-color: #fff;
-$navigator-text-color: $light-grey;
-
-// navigator-panel
-$navigator-item-height: .44rem;
-
-// layout vars end //
-
 /* 微信内部不显示action bar */
 .weChat-app {
     .header-for-webapp {
@@ -58,11 +29,14 @@ $navigator-item-height: .44rem;
     min-height: $min-viewport-height;
 }
 
+// gmu dialog
+@import "../components/gmu-dialog";
+
 // gmu componetn, navigator
-@import "../base/gmu-navigator";
+@import "../components/gmu-navigator";
 
 // gmu component, slider
-@import "../base/gmu-slider";
+@import "../components/gmu-slider";
 #slider {
     @include make-slider-container($slider-height, $ms-navigator-height);
 }
@@ -296,5 +270,5 @@ $navigator-item-height: .44rem;
 /* list end */
 
 // detail 
-@import "article";
+@import "../components/article";
 

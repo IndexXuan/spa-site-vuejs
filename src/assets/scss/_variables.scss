@@ -1,10 +1,10 @@
 // common vars start //
 
 // rewrite to project server in production
-$font-face-src: '../../../assets/fonts/yo/1.0.0';
+$font-face-src: 'http://source.qunarzz.com/fonts/yo/1.0.0';
 
 // remote images lib
-$img-dir: '../../../assets/images';
+$img-dir: 'http://weixin.hizuoye.com/assets/images';
 
 // $illy-container-width: 5rem; // temp drop, ipad full to display 
 
@@ -58,3 +58,31 @@ $like-color: $light-grey;
 // for article content's color
 $article-content-text-color: #444242;
 
+// layout vars start //
+
+// for microsite slider's height
+$slider-height: 1.8rem;
+
+// list page //
+$categories-bgColor: #fff;
+$category-title-color: $dark-grey;
+$item-title-color: $dark-grey;
+
+// microsite item spec size
+$title-line-height: .36rem;
+$ms-topN-img-height: .6rem;
+$ms-img-height: .80rem;
+$item_title_height: .45rem;
+
+// microsite scroller-navigator
+$ms-navigator-height: .40rem;
+$navigator-home-width: .5rem;
+$navigator-color: $wx-bar-bgColor;
+$navigator-current-bgColor: $wx-bar-bgColor;
+$navigator-current-text-color: #fff;
+$navigator-text-color: $light-grey;
+
+// navigator-panel
+$navigator-item-height: .44rem;
+
+// layout vars end //

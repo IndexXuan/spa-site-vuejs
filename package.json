@@ -8,7 +8,9 @@
     "test": "karma start config/karma.conf.js --single-run"
   },
   "dependencies": {
-    "vue": "^1.0.15"
+    "vue": "^1.0.15",
+    "vue-resource": "^0.7.0",
+    "vue-router": "^0.7.10"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -37,6 +39,7 @@
     "karma-phantomjs-launcher": "^0.2.1",
     "karma-spec-reporter": "0.0.23",
     "karma-webpack": "^1.7.0",
+    "local-storage": "^1.4.2",
     "node-sass": "^3.4.2",
     "open": "0.0.5",
     "phantomjs": "^1.9.19",
@@ -46,10 +49,10 @@
     "vue-hot-reload-api": "^1.2.0",
     "vue-html-loader": "^1.0.0",
     "vue-loader": "^8.0.0",
-    "vue-router": "^0.7.10",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.4.0",
-    "webpack-hot-middleware": "^2.6.0"
+    "webpack-hot-middleware": "^2.6.0",
+    "webpack-zepto": "0.0.1"
   }
 }

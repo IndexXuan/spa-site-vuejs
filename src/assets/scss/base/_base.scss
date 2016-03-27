@@ -9,8 +9,7 @@
 @import "normalize";
 @import "animation-part";
 
-// core variables and mixins
-@import "variables";
+// mixins
 @import "mixins/mixin";
 
 // yo component, fonts
@@ -24,9 +23,6 @@
 
 // global mask
 @import "mask";
-
-// gmu component, dialog
-@import "gmu-dialog";
 
 // yo component, list
 @import "yo-list";
